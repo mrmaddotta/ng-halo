@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>ng-halo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="halo.css" rel="stylesheet">
+
+    <style media="screen">
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .some-holding-element {
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+
+<body ng-app="app">
+
+    <div class="" ng-controller="SomeController">
+        <p>Percentage: {{ haloPercentage }}</p>
+        <div class="some-holding-element">
+            <halo
+                percentage="haloPercentage"
+                stroke-width="2"
+                stroke-color="'#0083a9'">
+            </halo>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript" src="halo.min.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+
+</body>
+</html>

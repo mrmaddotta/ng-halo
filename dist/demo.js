@@ -3,7 +3,7 @@
 
     angular
         .module('app', [
-            'mrmaddotta.ng-halo',
+            'ng-halo',
         ])
         .controller("SomeController", ['$scope', '$interval', function($scope, $interval) {
 

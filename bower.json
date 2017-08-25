@@ -1,0 +1,30 @@
+{
+    "name": "ng-halo",
+    "version": "0.0.1",
+    "authors": [
+        "Gavin McCleland <gavin@afrihost.com>"
+    ],
+    "description": "A simple, lightweight halo directive for AngularJS",
+    "main": [
+        "dist/halo.min.js",
+        "dist/halo.css"
+    ],
+    "dependencies": {
+        "angular": "~1.0.6"
+    },
+    "keywords": [
+        "angularjs",
+        "angular",
+        "halo",
+        "donut"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
