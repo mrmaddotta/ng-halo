@@ -2,7 +2,7 @@
     "name": "ng-halo",
     "version": "0.0.1",
     "authors": [
-        "Gavin McCleland <gavin@afrihost.com>"
+        "Gavin McCleland <gavin@orangedotdesigns.co.za>"
     ],
     "description": "A simple, lightweight halo directive for AngularJS",
     "main": [
